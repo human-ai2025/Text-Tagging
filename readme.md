@@ -41,6 +41,8 @@
 
 ## :dart: About ##
 Write this section
+1. [Quantization]()
+2. [ONNX]()
 
 ## :rocket: Technologies ##
 

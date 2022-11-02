@@ -1,1 +1,3 @@
 .idea/
+models/text-tagger.h5py
+models/text-tagger-tokenizer/
