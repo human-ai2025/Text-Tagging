@@ -40,9 +40,7 @@
 <br>
 
 ## :dart: About ##
-Write this section
-1. [Quantization]()
-2. [ONNX]()
+Deployed a model mimicing cloud production server using Docker, Pytorch, HuggingFace, Git and FastAPI. Reduced the model size by quantization and inference time by singleton design pattern approach. 
 
 ## :rocket: Technologies ##
 
@@ -51,6 +49,10 @@ The following tools were used in this project:
 - [Docker](https://www.docker.com/)
 - [Python](https://www.python.org/)
 - [Git](https://git-scm.com)
+- [FastAPI]()
+- [Torch]()
+- [Hugging Face]()
+
 
 ## :white_check_mark: Requirements ##
 
@@ -69,11 +71,10 @@ $ cd Text-Tagging
 # After doing this, it will give you the model weights [make sure to use the same versions of tensorflow in docker and while buiding the model]
 
 # For docker 
-$ docker compose build
-$ docker compose up
+$ docker compose build -- up
 
 # This will fire up the web serice for making predictions.
-# The server will initialize in the "http://127.0.0.1/predict"
+# The server will initialize in the "http://localhost:8000/predict"
 ```
 
 ## :memo: License ##

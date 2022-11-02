@@ -10,7 +10,6 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
 # Copy all the content of current directory to working directory
 COPY . .
-
 # Set env variables for Cloud Run
 ENV PORT 80
 ENV HOST 0.0.0.0
